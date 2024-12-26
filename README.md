@@ -190,9 +190,7 @@ Logs are stored in `logs/detailed_YYYY-MM-DD.log`:
 }
 ```
 
-## Development
-
-### Testing
+## Testing
 ```bash
 # Test API endpoints
 python test_api.py
@@ -201,33 +199,6 @@ python test_api.py
 python check_proxy.py
 ```
 
-### Project Structure
-```
-youtube-first-api/
-├── main.py              # FastAPI application
-├── youtube_scraper.py   # YouTube scraping logic
-├── proxy_manager.py     # Proxy rotation handling
-├── logger.py           # Logging configuration
-├── requirements.txt    # Python dependencies
-├── proxies.txt        # Proxy list
-└── logs/              # Log files
-```
-
-## Best Practices
-
-1. Implement proper error handling
-2. Respect rate limits (2s between requests)
-3. Monitor proxy performance
-4. Keep proxy list updated
-5. Check logs regularly
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
 
 ## License
 
